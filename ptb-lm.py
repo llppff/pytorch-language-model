@@ -15,13 +15,13 @@ parser.add_argument('--hidden_size', type=int, default=1500,
                     help='size of word embeddings')
 parser.add_argument('--num_steps', type=int, default=35,
                     help='number of LSTM steps')
-parser.add_argument('--num_layers', type=int, default=2,
+parser.add_argument('--num_layers', type=int, default=3,
                     help='number of LSTM layers')
 parser.add_argument('--batch_size', type=int, default=20,
                     help='batch size')
-parser.add_argument('--num_epochs', type=int, default=40,
+parser.add_argument('--num_epochs', type=int, default=200,
                     help='number of epochs')
-parser.add_argument('--dp_keep_prob', type=float, default=0.35,
+parser.add_argument('--dp_keep_prob', type=float, default=0,
                     help='dropout *keep* probability')
 parser.add_argument('--inital_lr', type=float, default=20.0,
                     help='initial learning rate')
