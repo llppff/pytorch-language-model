@@ -9,7 +9,7 @@ import reader
 import numpy as np
 
 parser = argparse.ArgumentParser(description='Simplest LSTM-based language model in PyTorch')
-parser.add_argument('--data', type=str, default='data',
+parser.add_argument('--data', type=str, default='data/ptb',
                     help='location of the data corpus')
 parser.add_argument('--hidden_size', type=int, default=1500,
                     help='size of word embeddings')

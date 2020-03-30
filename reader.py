@@ -63,7 +63,7 @@ def ptb_raw_data(data_path=None, prefix="ptb"):
     where each of the data objects can be passed to PTBIterator.
   """
 
-  train_path = os.path.join(data_path, prefix + ".ptb.train.txt")
+  train_path = os.path.join(data_path, prefix + ".train.txt")
   valid_path = os.path.join(data_path, prefix + ".valid.txt")
   test_path = os.path.join(data_path, prefix + ".test.txt")
 
